@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LM JOGOS</title>
+  <script async src="https://ads.instal.com/servead/adsbyinstal.js"></script>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(to bottom, #ffcc00, #ff0066);
+      color: white;
+      text-align: center;
+    }
+    header {
+      padding: 2rem 1rem;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    .btn-download {
+      background: #00ffcc;
+      color: #000;
+      padding: 1rem 2rem;
+      border: none;
+      border-radius: 10px;
+      font-size: 1.2rem;
+      cursor: pointer;
+      margin-top: 1rem;
+    }
+    .ads-container {
+      margin: 2rem auto;
+      max-width: 100%;
+      padding: 0 10px;
+      box-sizing: border-box;
+    }
+    .ads-container dfn {
+      display: inline-block;
+      width: 100% !important;
+      max-width: 320px;
+      height: auto !important;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+      padding: 2rem 10px;
+      box-sizing: border-box;
+    }
+    .gallery img {
+      width: 45vw;
+      max-width: 200px;
+      height: auto;
+      border-radius: 10px;
+    }
+    footer {
+      margin-top: 3rem;
+      padding: 1rem;
+      background-color: rgba(0,0,0,0.2);
+    }
+
+    /* Nova seção de apps */
+    .apps-section {
+      background: rgba(0,0,0,0.2);
+      padding: 2rem 1rem;
+      margin: 2rem auto;
+      max-width: 480px;
+      border-radius: 15px;
+    }
+    .apps-section h2 {
+      color: #fff;
+      margin-bottom: 1rem;
+      font-size: 2rem;
+    }
+    .app-button {
+      display: block;
+      background-color: #00ffcc;
+      color: #000;
+      padding: 1rem 1.5rem;
+      margin: 0.5rem auto;
+      border: none;
+      border-radius: 12px;
+      font-size: 1.1rem;
+      font-weight: bold;
+      cursor: pointer;
+      width: 90%;
+      max-width: 320px;
+      text-decoration: none;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+      transition: background-color 0.3s ease;
+      box-sizing: border-box;
+    }
+    .app-button:hover {
+      background-color: #00cca6;
+      color: #fff;
+    }
+
+    /* Ajustes para telas pequenas */
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 2rem;
+      }
+      .apps-section {
+        max-width: 95%;
+        padding: 1rem;
+      }
+      .btn-download {
+        padding: 0.8rem 1.5rem;
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>LM JOGOS</h1>
+    <p>Bem-vindo ao seu universo de jogos!</p>
+    <button class="btn-download">Baixar App</button>
+
+    <div class="ads-container">
+      <dfn class="adsbyinstal"
+         data-instalad-slot-type="default"
+         data-instalad-slotid="6113"
+         style="display:inline-block;width:100%;max-width:320px;height:480px"></dfn>
+      <script>(adsbyinstal = window.adsbyinstal || []).push({});</script>
+    </div>
+  </header>
+
+  <section class="gallery">
+    <img src="https://via.placeholder.com/200x120.png?text=Jogo+1" alt="Jogo 1" />
+    <img src="https://via.placeholder.com/200x120.png?text=Jogo+2" alt="Jogo 2" />
+    <img src="https://via.placeholder.com/200x120.png?text=Jogo+3" alt="Jogo 3" />
+    <img src="https://via.placeholder.com/200x120.png?text=Jogo+4" alt="Jogo 4" />
+  </section>
+
+  <div class="ads-container">
+    <dfn class="adsbyinstal"
+         data-instalad-slot-type="default"
+         data-instalad-slotid="6086"
+         style="display:inline-block;width:100%;max-width:320px;height:50px"></dfn>
+    <script>(adsbyinstal = window.adsbyinstal || []).push({});</script>
+  </div>
+
+  <!-- Seção nova: Apps Recomendados -->
+  <section class="apps-section">
+    <h2>Apps Recomendados</h2>
+
+    <a href="https://90030904d3.smapp.work/trkclk/?pid=2964&cid=3298469&nofw" target="_blank" class="app-button" rel="noopener noreferrer">
+      🎮 Baixar e Jogar - App 1
+    </a>
+
+    <a href="https://90030904d3.smapp.work/trkclk/?pid=2964&cid=3298469" target="_blank" class="app-button" rel="noopener noreferrer">
+      🎮 Baixar e Jogar - App 2
+    </a>
+
+    <a href="https://37d7e03834.smapp.work/trkclk/?pid=2964&cid=3302848" target="_blank" class="app-button" rel="noopener noreferrer">
+      🎮 Baixar e Jogar - App 3
+    </a>
+
+    <a href="https://43e75d11cb.smapp.work/trkclk/?pid=2964&cid=3303761" target="_blank" class="app-button" rel="noopener noreferrer">
+      🎮 Baixar e Jogar - App 4
+    </a>
+  </section>
+
+  <footer>
+    <p>Siga a LM JOGOS nas redes sociais!</p>
+  </footer>
+
+  <script async src="https://ads.instal.com/servead/adsbyinstal.js"></script>
+  <script>(adsbyinstal = window.adsbyinstal || []).push({});</script>
+</body>
+</html>
